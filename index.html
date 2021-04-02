@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="javascript" href="./javascript.js">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;500&display=swap" rel="stylesheet">
+    <title>Form</title>
+</head>
+<body>
+
+    <form>
+        <div class="name">
+            <label for="fname">First name:</label>
+                <input type="fname" name="fname" placeholder="John" id="fname">
+            <label for="lname">Last name:</label>
+                <input type="last name" name="last name" placeholder="Smith" id="lname">
+        </div>
+
+        <label for="email">Email:</label> 
+            <input type="email" name="email" placeholder="jonhsmith@example.com" id="email">
+
+        <label for="Reason">Reason for contacting:</label>
+            <select name="Reason" id="reason">
+                <option value="Query">Query</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Complaint">Complaint</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" maxlength="250" placeholder="Your message..."></textarea>
+    
+        <input type="submit" name="submit" onclick="submit();">
+
+</form>
+    
+</body>
+</html>
